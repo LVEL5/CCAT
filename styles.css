@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 16px;
+  color: #fff; /* Text color */
+  background-color: #1f1f1f; /* Dark background color */
+  margin: 0;
+  padding: 20px;
+}
+
+.header {
+  display: flex; /* Using flexbox */
+  align-items: center; /* Align items vertically */
+}
+
+.header img {
+  width: 50px; /* Set the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adjust margin between image and text */
+}
+
+h1 {
+  color: #0f0; /* Green heading color */
+}
+
+h2 {
+  color: #0f0; /* Green heading color */
+}
+
+div.scroll {
+  background-color: #333; /* Darker background for scroll div */
+  color: #fff; /* Text color inside the scroll div */
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #0f0; /* Green border */
+}
+
+/* Button and checkbox styles */
+input[type="checkbox"],
+button {
+  background-color: #0f0; /* Green button and checkbox background */
+  color: #000; /* Black text color for button */
+  padding: 8px;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button {
+  margin-left: 5px;
+  margin-top: 5px
+}
+
+/* Checkbox specific style */
+input[type="checkbox"] {
+  margin-top: 20px; /* Increased top margin */
+}
+
+/* Hover effect for buttons */
+input[type="checkbox"]:hover,
+button:hover {
+  background-color: #0c0; /* Darker green on hover */
+}
